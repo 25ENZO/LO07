@@ -1,0 +1,99 @@
+table, tr, td, th, thead
+{
+	border: solid 1px;
+	border-collapse: collapse;
+}
+
+table, h1, h2
+{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+div#window
+{
+	position: absolute;
+	left: 20%;
+	top: 25%;
+	right: 20%;
+	width: 60%;
+	border: solid 2px;
+	background-color: white;
+	padding: 20px;
+	/*height: 55%;
+	overflow: auto;*/
+	display: none;
+}
+
+div#win
+{
+	width: 98%;
+}
+
+a#close
+{
+	display: block;
+	float: right;
+}
+
+div.ok
+{
+	padding: 10px;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	background-color: #6666CC;
+	border: solid 1px #0000CC;
+}
+
+.loginform-in {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D6E5F5;
+    border-radius: 3px 3px 3px 3px;
+    height: 345px;
+    margin: auto;
+    padding: 0;
+    width: 460px;
+}
+
+.loginform-in fieldset {
+    border-bottom: 1px solid #EFEFEF;
+    margin: 20px auto;
+    padding: 0 0 10px;
+    width: 87%;
+}
+
+.loginbutton {
+    background: -moz-linear-gradient(center top , #F1F1F1, #E0E0E0) repeat scroll 0 0 transparent;
+    border: 1px solid #A7A7A7;
+    border-radius: 3px 3px 3px 3px;
+    color: #444444;
+    cursor: pointer;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    font-weight: normal;
+    height: 29px;
+    letter-spacing: 1px;
+    width: 92px;
+}
+
+.loginform-in fieldset label {
+    color: #7D7D7D;
+    float: left;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 0 0;
+    width: 140px;
+}
+
+.loginform-in fieldset input[type="text"], input[type="password"], fieldset select {
+    border: 1px solid #CBC7C5;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    height: 33px;
+    padding: 1px 1px 1px 3px;
+    width: 250px;
+}
